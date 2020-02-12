@@ -49,7 +49,6 @@ export default {
     submitForm (formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
-
           if (this.loginForm.username === 'admin' && this.loginForm.password === '12345') {
             window.sessionStorage.setItem('token', 'test')
             this.$message({ showClose: true, message: 'login success', type: 'success', duration: 1000 })

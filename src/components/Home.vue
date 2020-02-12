@@ -31,27 +31,27 @@ export default {
     return {
       menulist: [
         {
-          path: 'test',
+          path: 'io',
           text: 'IO模型库',
           icon: 'el-icon-coin'
         },
         {
-          path: 'test1',
+          path: 'result',
           text: '执行结果',
           icon: 'el-icon-notebook-2'
         },
         {
-          path: 'test2',
+          path: 'task',
           text: '任务列表',
           icon: 'el-icon-notebook-1'
         },
         {
-          path: 'test3',
+          path: 'config',
           text: '任务配置',
           icon: 'el-icon-s-tools'
         },
         {
-          path: 'test4',
+          path: 'report',
           text: '测试报告',
           icon: 'el-icon-s-data'
         }
