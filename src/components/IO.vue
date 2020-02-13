@@ -4,6 +4,7 @@
       <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
       <el-breadcrumb-item>IO模型库</el-breadcrumb-item>
     </el-breadcrumb>
+    <el-card class="box-card"></el-card>
   </div>
 </template>
 

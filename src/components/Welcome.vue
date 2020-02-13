@@ -4,6 +4,8 @@
       <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
       <el-breadcrumb-item>Welcome</el-breadcrumb-item>
     </el-breadcrumb>
+
+    <el-card class="box-card">123</el-card>
   </div>
 </template>
 
