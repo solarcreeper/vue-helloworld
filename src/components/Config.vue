@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div class="content-wrapper">
     <el-breadcrumb separator-class="el-icon-arrow-right">
       <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
       <el-breadcrumb-item>任务配置</el-breadcrumb-item>
     </el-breadcrumb>
+    <el-card></el-card>
   </div>
 </template>
 

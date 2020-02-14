@@ -13,4 +13,9 @@ body,
 
 .el-card {
     box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15) !important;
+    height: 97%;
+}
+
+.content-wrapper {
+    height: 100%;
 }
