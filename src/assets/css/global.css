@@ -19,3 +19,7 @@ body,
 .content-wrapper {
     height: 100%;
 }
+
+.el-table {
+    margin-top: 12px;
+}

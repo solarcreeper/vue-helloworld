@@ -5,7 +5,7 @@ import './plugins/element.js'
 import './assets/css/global.css'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://127.0.0.1:5000/cft/api/v1/'
+axios.defaults.baseURL = 'http://localhost:8088/cft/api/v1/'
 axios.interceptors.request.use(config => {
   console.log(config)
   return config

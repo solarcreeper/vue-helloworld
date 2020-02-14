@@ -15,13 +15,32 @@
           <el-button type="primary">add</el-button>
         </el-col>
       </el-row>
+      <el-table :data="iolist" border stripe>
+        <el-table-column prop="io_name" label="日期" width="180"></el-table-column>
+        <el-table-column prop="io_tool" label="姓名" width="180"></el-table-column>
+        <el-table-column prop="io_params" label="地址"></el-table-column>
+      </el-table>
     </el-card>
   </div>
 </template>
 
 <script>
 export default {
-
+  data () {
+    return {
+      iolist: []
+    }
+  },
+  created () {
+    this.getIOModuleList()
+  },
+  methods: {
+    async getIOModuleList () {
+      const { data: res } = await this.$http.get('io')
+      this.iolist = res
+      console.log(this.iolist)
+    }
+  }
 }
 </script>
 
